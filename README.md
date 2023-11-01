@@ -1,2 +1,2 @@
-# mlscmoulika.github.io
+# Personal website
 personal website
