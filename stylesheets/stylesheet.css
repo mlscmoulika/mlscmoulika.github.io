@@ -102,12 +102,12 @@ a:hover {
 
 
 .about-me {
-  animation: fadeIn 5s;
+  animation: fadeIn 2s;
   margin-top: 0;
   margin-bottom: 0.1rem; }
 
 .about-me-text {
-  animation: fadeIn 5s;
+  animation: fadeIn 2s;
   width:100%;
   margin-top: 0;
   margin-bottom: 0.1rem; }
