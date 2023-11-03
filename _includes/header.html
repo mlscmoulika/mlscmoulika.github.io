@@ -1,16 +1,16 @@
+<div id="nav-bar">
+     <a href="#about-me">About me</a>
+     
+     {% for post in paginator.posts %}
+     <a href="#{{ post.title }}">{{ post.title }}</a>
+     {% endfor %}
+</div>
 <header class="page-header" style="overflow: hidden;">
-     <div id="nav-bar">
-          <a href=".about-me">About me</a>
-          
-          {% for post in paginator.posts %}
-          <a href=".{{ post.title }}">{{ post.title }}</a>
-          {% endfor %}
-     </div>
      <div style="float: left; width:50%;">
-          <h1 class="about-me"> <a class="header-link" href="{{ site.baseurl }}/"> About Me</a></h1>
+          <h1 class="about-me" id="about-me"> <a class="header-link" href="{{ site.baseurl }}/"> About Me</a></h1>
           <p class="about-me-text">
-          Machine Learning and data science enthusiast and a front end web developer with a Masters in <i style="font-style: oblique; font-size: larger; color: rgb(109, 111, 135);">Machine Learning</i> and Bachelors in <i style="font-style: oblique; font-size: larger; color: rgb(109, 111, 135);">Computer Science</i>, 
-          open to work for a company looking for <i style="font-style: oblique; font-size: larger; color: rgb(109, 111, 135);">passionate and innovative problem solver,</i> who can take quickly adapt to the work culture and deliver solutions taloring to the requirements of the 
+          Machine Learning and data science enthusiast with a Masters in <i style="font-style: oblique; font-size: larger; color: rgb(109, 111, 135);">Machine Learning</i> and Bachelors in <i style="font-style: oblique; font-size: larger; color: rgb(109, 111, 135);">Computer Science</i>, 
+          open to work for a company looking for <i style="font-style: oblique; font-size: larger; color: rgb(109, 111, 135);">passionate and innovative problem solver,</i> who can quickly adapt to the work culture and deliver solutions taloring to the requirements of the 
           clients using machine learning algorithms.
           </p>
      </div>
