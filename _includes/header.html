@@ -1,4 +1,11 @@
 <header class="page-header" style="overflow: hidden;">
+     <div id="nav-bar">
+          <a href=".about-me">About me</a>
+          
+          {% for post in paginator.posts %}
+          <a href=".{{ post.title }}">{{ post.title }}</a>
+          {% endfor %}
+     </div>
      <div style="float: left; width:50%;">
           <h1 class="about-me"> <a class="header-link" href="{{ site.baseurl }}/"> About Me</a></h1>
           <p class="about-me-text">

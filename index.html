@@ -9,10 +9,9 @@ layout: default
 
     <div class="main-content" itemprop="articleBody">
 
-<a name="blog{{ forloop.index }}"></a>
-
   <header class="post-header">
-      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}"><h3 class="post-title" itemprop="name headline">{{ post.title }}</h3> </a>
+      <h3 class="post-title {{ post.title }}" itemprop="name headline">{{ post.title }}</h3>
+      <!-- <a class="post-link" href="{{ post.url | prepend: site.baseurl }}"><h3 class="post-title" itemprop="name headline">{{ post.title }}</h3> </a> -->
 
   </header>
 
@@ -21,20 +20,7 @@ layout: default
 
 
 	<span>
-		<input type="checkbox" id="our-popup-{{ forloop.index }}" class="smoosh" />
-
-		<!-- invisible; when checked, the popup opens -->
-		<label for="our-popup-{{ forloop.index }}" class="overlay"></label>
-
-		<!-- the popup starts here -->
-		<div class="overlay-dialogue">
-			<h3>Share "{{ post.title  }}"</h3>
-
-            <!-- Target -->
-<input id="foo{{ forloop.index }}" value="{{ site.url }}{{ post.url }}" type="url">
-
-<!-- Trigger -->
-            		</div>
+</div>
 	</span>
 
   </div>
@@ -43,14 +29,3 @@ layout: default
 
 {% endfor %}
 
-<div class="pagination" style="text-align: center;">
-
-  {% if paginator.next_page %}
-    <h2><a href="{{ paginator.next_page_path }}" class="next">- more posts -</a></h2>
-  {% endif %}
-
-  {% if paginator.previous_page %}
-    <h2><a href="{{ paginator.previous_page_path }}" class="previous">- previous page -</a></h2>
-  {% endif %}
-
-</div>
