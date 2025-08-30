@@ -1,7 +1,7 @@
 <div id="nav-bar">
      <a href="#about-me">About me</a>
-     
-     {% for post in paginator.posts %}
+     {% assign sorted_posts = site.posts | sort: 'order' | reverse %}
+     {% for post in paginator.posts reversed %}
      <a href="#{{ post.title }}">{{ post.title }}</a>
      {% endfor %}
 </div>
@@ -11,7 +11,7 @@
           <p class="about-me-text">
           Machine Learning and data science enthusiast with a Masters in <i style="font-style: oblique; font-size: larger; color: rgb(109, 111, 135);">Machine Learning</i> and Bachelors in <i style="font-style: oblique; font-size: larger; color: rgb(109, 111, 135);">Computer Science</i>, 
           open to work for a company looking for <i style="font-style: oblique; font-size: larger; color: rgb(109, 111, 135);">passionate and innovative problem solver,</i> who can quickly adapt to the work culture and deliver solutions taloring to the requirements of the 
-          clients using machine learning algorithms.
+          clients using Machine Learning and Software Engineering algorithms.
           </p>
      </div>
      <div style="float: right; width: 50%;">

@@ -57,11 +57,12 @@ a:hover {
 #nav-bar{
   padding: 1%;
   width: 100%;
-  height: 7%;
-  background-color: #5F6B70;
-  opacity: 0.75;
+  height: 10%;
+  background-color: #132c37;
+  opacity: 1;
   color: #dce6f0;
   position: fixed;
+  text-align: center;
 }
 
 #nav-bar a{
