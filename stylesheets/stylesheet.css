@@ -86,24 +86,24 @@ a:hover {
 
 @media screen and (min-width: 64em) {
   .page-header {
-    height: 100vh;
+    min-height: auto;
     padding-top: 1rem;
     padding-left: 2rem;
     padding-bottom: 1rem; } }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .page-header {
-    height: 100vh;
+    min-height: auto;
     padding-top: 1rem;
     padding-left: 2rem;
     padding-bottom: 1rem; } }
 
 @media screen and (max-width: 42em) {
   .page-header {
-    height: 75vh;
-    padding-top: 1rem;
-    padding-left: 2rem;
-    padding-bottom: 1rem; } }
+    min-height: auto;
+    padding-top: 0.75rem;
+    padding-left: 1rem;
+    padding-bottom: 0.75rem; } }
 
 
 .about-me {
