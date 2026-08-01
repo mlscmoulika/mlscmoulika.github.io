@@ -5,13 +5,19 @@
 
   <body>
 
-    {% include header.html %}
+    {% if page.url == '/' or page.url == '/index.html' %}
+      {% include header.html %}
+    {% else %}
+      <div class="top-home-link">
+        <a href="{{ '/' | relative_url }}">← Home</a>
+      </div>
+    {% endif %}
 
     <section class="main-content">
       <div class="wrapper">
         {{ content }}
       </div>
-    </div>
+    </section>
 
   </body>
 

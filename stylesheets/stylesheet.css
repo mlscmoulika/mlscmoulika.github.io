@@ -218,10 +218,15 @@ a:hover {
   margin-bottom: 1rem;
 }
 
-.back-home-link {
+.back-home-link,
+.top-home-link {
   display: inline-block;
-  margin-bottom: 1rem;
+  margin: 1rem 1rem 0;
   font-weight: 600;
+}
+
+.top-home-link a {
+  color: #32383B;
 }
 
 @media screen and (min-width: 64em) {
