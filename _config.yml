@@ -22,4 +22,10 @@ gems: [jekyll-paginate]
 
 plugins: [jekyll-paginate]
 
-paginate: 20
+paginate: 2
+paginate_path: "/blog/page:num/"
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/

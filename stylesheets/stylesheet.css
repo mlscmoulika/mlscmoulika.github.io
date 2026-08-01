@@ -87,23 +87,23 @@ a:hover {
 @media screen and (min-width: 64em) {
   .page-header {
     height: 100vh;
-    padding-top: 5rem;
-    padding-left: 6rem;
-    padding-bottom: 5rem; } }
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-bottom: 1rem; } }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .page-header {
     height: 100vh;
-    padding-top: 3rem;
-    padding-left: 4rem;
-    padding-bottom: 3rem; } }
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-bottom: 1rem; } }
 
 @media screen and (max-width: 42em) {
   .page-header {
     height: 75vh;
-    padding-top: 2rem;
-    padding-left: 1rem;
-    padding-bottom: 2rem; } }
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-bottom: 1rem; } }
 
 
 .about-me {
@@ -135,13 +135,13 @@ a:hover {
 
 @media screen and (min-width: 64em) {
   .about-me {
-    font-size: 3.25rem; }
+    font-size: 2.25rem; }
   .about-me-text {
-    font-size: 1.25rem; }
+    font-size: 1.1rem; }
   .about-me-links{
-    font-size: 3.25rem;} 
+    font-size: 1.1rem;} 
   #nav-bar {
-    font-size: 1.25rem;} }
+    font-size: 1.1rem;} }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .about-me {
@@ -149,7 +149,7 @@ a:hover {
   .about-me-text {
     font-size: 1rem; }
   .about-me-links{
-    font-size: 2.25rem;
+    font-size: 1.1rem;
   } 
   #nav-bar {
     font-size: 1rem;} }
@@ -160,7 +160,7 @@ a:hover {
   .about-me-text {
     font-size: 0.75rem; }
   .about-me-links{
-    font-size: 1.25rem;
+    font-size: 0.75rem;
   } 
   #nav-bar {
     font-size: 0.75rem;}}
@@ -170,9 +170,52 @@ a:hover {
   font-weight: normal;
   opacity: 0.7; }
 
+.page-section {
+  margin: 2rem 0 3rem;
+}
+
+.section-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.25rem;
+}
+
+.card {
+  background: #ffffff;
+  border: 1px solid #dce6f0;
+  border-radius: 0.75rem;
+  padding: 1.25rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.card h2 {
+  margin-top: 0;
+  margin-bottom: 0.6rem;
+}
+
+.card ul {
+  padding-left: 1.1rem;
+  margin: 0.75rem 0 1rem;
+}
+
+.card li {
+  margin-bottom: 0.4rem;
+}
+
+.card-link {
+  display: inline-block;
+  margin-top: 0.5rem;
+  font-weight: 600;
+}
+
+.card-list {
+  display: grid;
+  gap: 1rem;
+}
+
 @media screen and (min-width: 64em) {
   .project-tagline {
-    font-size: 1.25rem; } }
+    font-size: 1.1rem; } }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .project-tagline {
@@ -291,7 +334,7 @@ a:hover {
     /* margin: 0 auto; */
     font-size: 1.1rem; }
     .post-title {
-      font-size: 3.25rem;
+      font-size: 2.25rem;
     }
    }
 
@@ -309,7 +352,7 @@ a:hover {
     padding: 0rem 0.5rem 0rem;
     font-size: 1rem; } 
     .post-title{
-    font-size: 1.25rem;
+    font-size: 1.1rem;
     
     }
 

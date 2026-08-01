@@ -1,0 +1,16 @@
+---
+layout: default
+title: Projects
+permalink: /projects/
+---
+
+<h1>Projects</h1>
+
+<div class="card-list">
+  {% for project in site.projects %}
+  <div class="card">
+    <h2><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h2>
+    <p>{{ project.excerpt | default: project.content | strip_html | truncate: 160 }}</p>
+  </div>
+  {% endfor %}
+</div>

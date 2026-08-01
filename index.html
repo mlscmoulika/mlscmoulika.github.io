@@ -2,30 +2,35 @@
 layout: default
 ---
 
+<section class="page-section">
+  <div class="section-grid">
+    <div class="card">
+      <h2>Projects</h2>
+      <p>A quick look at the personal projects I have built and worked on.</p>
+      <ul>
+        {% for project in site.projects limit: 3 %}
+        <li><a href="{{ project.url | relative_url }}">{{ project.title }}</a></li>
+        {% endfor %}
+      </ul>
+      <a class="card-link" href="{{ '/projects/' | relative_url }}">See more</a>
+    </div>
 
-{% for post in paginator.posts reversed %}
+    <div class="card">
+      <h2>Resume</h2>
+      <p>An overview of my experience, skills, and interests.</p>
+      <a class="card-link" href="{{ '/resume/' | relative_url }}">View resume</a>
+    </div>
 
-<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-
-    <div class="main-content" itemprop="articleBody">
-
-  <header class="post-header">
-      <h3 id="{{ post.title }}"class="post-title" itemprop="name headline">{{ post.title }}</h3>
-      <!-- <a class="post-link" href="{{ post.url | prepend: site.baseurl }}"><h3 class="post-title" itemprop="name headline">{{ post.title }}</h3> </a> -->
-
-  </header>
-
-    {{ post.content }}
-
-
-
-	<span>
-</div>
-	</span>
-
+    <div class="card">
+      <h2>Blog Posts</h2>
+      <p>Short notes, learnings, and reflections from my journey.</p>
+      <ul>
+        {% for post in site.posts limit: 3 %}
+        <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+        {% endfor %}
+      </ul>
+      <a class="card-link" href="{{ '/blog/' | relative_url }}">See more</a>
+    </div>
   </div>
-
-</article>
-
-{% endfor %}
+</section>
 
