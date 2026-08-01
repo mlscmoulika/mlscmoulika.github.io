@@ -16,7 +16,7 @@ url: 'https://mlscmoulika.github.io' # the base hostname & protocol for your sit
 # Build settings
 markdown: kramdown
 
-permalink: '/:title/'
+permalink: '/:categories/:title/'
 
 gems: [jekyll-paginate]
 
