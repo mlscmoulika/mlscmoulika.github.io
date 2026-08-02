@@ -8,7 +8,7 @@
 # Site settings
 title: Moulika Madana's Portfolio
 description: '' # write a nice description for your blog
-baseurl: '/about-me' # the subpath of your site, e.g. /blog
+baseurl: '' # leave blank for a root GitHub Pages site
 url: 'https://mlscmoulika.github.io' # the base hostname & protocol for your site http://www.example.com
 # google_analytics: 'UA-XXXXXX-X'
 
