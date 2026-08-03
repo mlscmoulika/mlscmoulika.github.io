@@ -2,23 +2,26 @@
 title: GPU Programming
 layout: default
 ---
-## What is this project about?
-This project is my exploration on GPU programming, I have done so far. Following are the topics:
-* **GPU Profiling** - GPU profiling is to study the performance of a code on GPU. These techniques help in optimising the code which is supposed to run on a GPU, by analysing the aspects like speed, memory usage etc. The code includes, `torch.profiler` and `torch.cuda.Event`. Note : advatage of using `torch.profiler` is that it gives you a detailed breakdown of the time taken by each operation, while `torch.cuda.Event` only gives you the total time taken for a specific operation. However, `torch.profiler` can introduce some overhead, so for very small operations, the timing may not be accurate. [Ref. link](https://www.youtube.com/watch?v=LuhJEEJQgUM)
-* **LeetGPU** - I got a chance to explore [LeetGPU](https://leetgpu.com/), which is just like [LeetCode](https://leetcode.com/), but for GPU programming. I got a chance to venture into `triton` while exploring this aspect. If `Cuda` is the high end Camera, then, `Triton` is like a high end smartphone camera. As in that, in `triton`, you can't control everything here but get good performance here. On the other hand with `cuda`, you can control many things and get better performance, but you have to write it in C programming language([ref](https://www.youtube.com/watch?v=DdTsX6DQk24)). I tried to solve a few questions using `triton` and `jax`. This part of the project helped me understand, how different is CPU and GPU programming are. I did struggle a bit to get some hang of it. The sources I have referred to so far are:
+## Overview
+This project is my exploration of GPU programming so far. The aim is to understand how to optimise GPU workloads to train large models more efficiently. To achieve this, I want to explore the basics, like matrix addition on GPU and ramp up to advanced topics.
+
+## Topics Covered:
+
+* **GPU Profiling** - GPU profiling is the process of analysing the performance of GPU while running a function, which helps in tackling bottlenecks and improving GPU performance. Two such in-built profilers explored during this project are, `torch.profiler` and `torch.cuda.Event`. The advantage of using `torch.profiler` is that it gives a detailed breakdown of the time taken by each operation, while `torch.cuda.Event` only gives the total time taken for a specific operation. However, `torch.profiler` can introduce some overhead, so for very small operations, the timing may not be accurate. [Ref. link](https://www.youtube.com/watch?v=LuhJEEJQgUM)
+* **LeetGPU** - [LeetGPU](https://leetgpu.com/) is a coding platform, similar to [LeetCode](https://leetcode.com/), but for GPU programming. `triton` and `jax` were used to answer the questions. If, `cuda` provides low-level control using C/C++, then `triton` is a high-level, python based library that automates memory and thread management([ref](https://www.youtube.com/watch?v=DdTsX6DQk24)). `Jax` is a python based library for array oriented numerical computations. The sources I have referred to so far are:
     * [GPU MODE](https://www.youtube.com/@GPUMODE)
     * [Working of GPU](https://www.youtube.com/watch?v=h9Z4oGN89MU)
     * [GPU vs CPU](https://www.youtube.com/watch?v=Axd50ew4pco&t=96s)
 
-## Why did I do it?
-I see that I am interested to apply for ML Engineer and/or related roles. And ML Engineers when they deal with larger models or bigger datasets, use GPUs to keep the things going. Though there are a couple of things taken care off by the Cloud services that we make use of day to day. I just wanted to take it a step further and learn how to use GPUs efficiently. I am still learning the basics, but I want to take myself to a stage wherein I feel comfortable using GPU to optimise the training of my models. 
+## Motivation
+GPU programming is an important skill in domains like HPC, computer graphics, ML and many more. Based on my interests I see myself exploring roles as an ML Engineer or researcher or related roles. Through this project, I want to develop a deep understanding of GPU programming and become comfortable using GPU to optimise the training of my models. 
 
 ## Key learnings and takeaways so far:
 * GPU Profiling
 * Easy level LeetGPU questions
 
 ## Repo Link:
-[Github link](https://github.com/mlscmoulika/gpu_testing)
+[GitHub link](https://github.com/mlscmoulika/gpu_testing)
 
 ## Is it ongoing/completed?
 Ongoing! Feel free to tag along to collaborate
