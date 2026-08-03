@@ -11,7 +11,7 @@ This project is my exploration on GPU programming, I have done so far. Following
     * [GPU vs CPU](https://www.youtube.com/watch?v=Axd50ew4pco&t=96s)
 
 ## Why did I do it?
-I see that I am interested to apply for ML Engineer and/or related roles. And ML Engineers when they deal with larger models are bigger datasets, use GPUs to keep the things going. Though there are a couple of things taken care off by the Cloud services that we make use of day to day. I just wanted to take it a step further and learn how to use GPUs efficiently. I am still learning the basics, but I want to take myself to a stage wherein I feel comfortable using GPU to optimise the training of my models. 
+I see that I am interested to apply for ML Engineer and/or related roles. And ML Engineers when they deal with larger models or bigger datasets, use GPUs to keep the things going. Though there are a couple of things taken care off by the Cloud services that we make use of day to day. I just wanted to take it a step further and learn how to use GPUs efficiently. I am still learning the basics, but I want to take myself to a stage wherein I feel comfortable using GPU to optimise the training of my models. 
 
 ## Key learnings and takeaways so far:
 * GPU Profiling
