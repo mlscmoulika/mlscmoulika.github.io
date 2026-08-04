@@ -1,0 +1,20 @@
+current directory: C:/Users/MLS Chandra Moulika/Desktop/personal_projects/personal_portfolio/mlscmoulika.github.io/vendor/bundle/ruby/3.2.0/gems/unf_ext-0.0.8.2/ext/unf_ext
+C:/Ruby32-x64/bin/ruby.exe extconf.rb
+checking for -lstdc++... yes
+creating Makefile
+
+current directory: C:/Users/MLS Chandra Moulika/Desktop/personal_projects/personal_portfolio/mlscmoulika.github.io/vendor/bundle/ruby/3.2.0/gems/unf_ext-0.0.8.2/ext/unf_ext
+make DESTDIR\= sitearchdir\=./.gem.20260804-18036-gw98k3 sitelibdir\=./.gem.20260804-18036-gw98k3 clean
+
+current directory: C:/Users/MLS Chandra Moulika/Desktop/personal_projects/personal_portfolio/mlscmoulika.github.io/vendor/bundle/ruby/3.2.0/gems/unf_ext-0.0.8.2/ext/unf_ext
+make DESTDIR\= sitearchdir\=./.gem.20260804-18036-gw98k3 sitelibdir\=./.gem.20260804-18036-gw98k3
+generating unf_ext-x64-mingw-ucrt.def
+compiling unf.cc
+linking shared-object unf_ext.so
+
+current directory: C:/Users/MLS Chandra Moulika/Desktop/personal_projects/personal_portfolio/mlscmoulika.github.io/vendor/bundle/ruby/3.2.0/gems/unf_ext-0.0.8.2/ext/unf_ext
+make DESTDIR\= sitearchdir\=./.gem.20260804-18036-gw98k3 sitelibdir\=./.gem.20260804-18036-gw98k3 install
+/usr/bin/install -c -m 0755 unf_ext.so ./.gem.20260804-18036-gw98k3
+
+current directory: C:/Users/MLS Chandra Moulika/Desktop/personal_projects/personal_portfolio/mlscmoulika.github.io/vendor/bundle/ruby/3.2.0/gems/unf_ext-0.0.8.2/ext/unf_ext
+make DESTDIR\= sitearchdir\=./.gem.20260804-18036-gw98k3 sitelibdir\=./.gem.20260804-18036-gw98k3 clean
