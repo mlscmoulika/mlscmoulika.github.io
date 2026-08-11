@@ -27,8 +27,10 @@ uname -v = #37~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Thu Nov 20 10:25:38 UTC 2
 /usr/bin/oslevel       = unknown
 /bin/universe          = unknown
 
-PATH: /home/mlscmoulika/.nvm/versions/node/v24.18.1/bin/
+PATH: /home/mlscmoulika/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/
+PATH: /home/mlscmoulika/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/
 PATH: /home/mlscmoulika/.local/bin/
+PATH: /home/mlscmoulika/.nvm/versions/node/v24.18.1/bin/
 PATH: /home/mlscmoulika/.local/bin/
 PATH: /usr/local/sbin/
 PATH: /usr/local/bin/

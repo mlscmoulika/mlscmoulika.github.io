@@ -3,17 +3,17 @@ current directory: /home/mlscmoulika/personal_portfolios/2-latest-github.io/mlsc
 creating Makefile
 
 current directory: /home/mlscmoulika/personal_portfolios/2-latest-github.io/mlscmoulika.github.io/vendor/bundle/ruby/3.2.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
-make DESTDIR\= sitearchdir\=./.gem.20260801-81672-cm545l sitelibdir\=./.gem.20260801-81672-cm545l clean
+make DESTDIR\= sitearchdir\=./.gem.20260811-9712-qez1wf sitelibdir\=./.gem.20260811-9712-qez1wf clean
 
 current directory: /home/mlscmoulika/personal_portfolios/2-latest-github.io/mlscmoulika.github.io/vendor/bundle/ruby/3.2.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
-make DESTDIR\= sitearchdir\=./.gem.20260801-81672-cm545l sitelibdir\=./.gem.20260801-81672-cm545l
+make DESTDIR\= sitearchdir\=./.gem.20260811-9712-qez1wf sitelibdir\=./.gem.20260811-9712-qez1wf
 compiling ruby_http_parser.c
 compiling ryah_http_parser.c
 linking shared-object ruby_http_parser.so
 
 current directory: /home/mlscmoulika/personal_portfolios/2-latest-github.io/mlscmoulika.github.io/vendor/bundle/ruby/3.2.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
-make DESTDIR\= sitearchdir\=./.gem.20260801-81672-cm545l sitelibdir\=./.gem.20260801-81672-cm545l install
-/usr/bin/install -c -m 0755 ruby_http_parser.so ./.gem.20260801-81672-cm545l
+make DESTDIR\= sitearchdir\=./.gem.20260811-9712-qez1wf sitelibdir\=./.gem.20260811-9712-qez1wf install
+/usr/bin/install -c -m 0755 ruby_http_parser.so ./.gem.20260811-9712-qez1wf
 
 current directory: /home/mlscmoulika/personal_portfolios/2-latest-github.io/mlscmoulika.github.io/vendor/bundle/ruby/3.2.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
-make DESTDIR\= sitearchdir\=./.gem.20260801-81672-cm545l sitelibdir\=./.gem.20260801-81672-cm545l clean
+make DESTDIR\= sitearchdir\=./.gem.20260811-9712-qez1wf sitelibdir\=./.gem.20260811-9712-qez1wf clean

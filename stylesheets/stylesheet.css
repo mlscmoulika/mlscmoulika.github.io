@@ -241,6 +241,88 @@ a:hover {
   .project-tagline {
     font-size: 1rem; } }
 
+.resume-page {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 1rem 0 2rem;
+  font-family: "Georgia", "Times New Roman", serif;
+  color: #222;
+}
+
+.resume-document {
+  background: #ffffff;
+  border: 1px solid #d0d7de;
+  border-radius: 0.6rem;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+  padding: 1.4rem 1.6rem;
+}
+
+.resume-intro {
+  margin-bottom: 0.8rem;
+  padding: 0 0 0.6rem;
+  border-bottom: 1px solid #d0d7de;
+}
+
+.resume-intro h1 {
+  margin: 0 0 0.25rem;
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: #111;
+}
+
+.resume-intro p {
+  margin: 0.15rem 0;
+  font-size: 0.95rem;
+}
+
+.resume-download {
+  display: inline-block;
+  margin-top: 0.6rem;
+  padding: 0.45rem 0.8rem;
+  background: #132c37;
+  color: #ffffff;
+  border-radius: 0.25rem;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.resume-download:hover {
+  text-decoration: none;
+  background: #1f4350;
+}
+
+.resume-section {
+  margin-bottom: 0.4rem;
+  padding: 0.15rem 0 0.25rem;
+}
+
+.resume-section h2 {
+  margin: 0.9rem 0 0.3rem;
+  font-size: 1.02rem;
+  font-weight: 700;
+  color: #111;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  border-bottom: 1px solid #d0d7de;
+  padding-bottom: 0.2rem;
+}
+
+.resume-section h2:first-child {
+  margin-top: 0;
+}
+
+.resume-section p,
+.resume-section li {
+  margin: 0.2rem 0;
+  line-height: 1.5;
+  font-size: 0.95rem;
+}
+
+.resume-list {
+  margin: 0.2rem 0 0.5rem;
+  padding-left: 1.1rem;
+}
+
 .main-content :first-child {
   margin-top: 0; 
 }

@@ -3,10 +3,10 @@ current directory: /home/mlscmoulika/personal_portfolios/2-latest-github.io/mlsc
 creating Makefile
 
 current directory: /home/mlscmoulika/personal_portfolios/2-latest-github.io/mlscmoulika.github.io/vendor/bundle/ruby/3.2.0/gems/commonmarker-0.23.10/ext/commonmarker
-make DESTDIR\= sitearchdir\=./.gem.20260801-81672-k5epdi sitelibdir\=./.gem.20260801-81672-k5epdi clean
+make DESTDIR\= sitearchdir\=./.gem.20260811-9712-drq13b sitelibdir\=./.gem.20260811-9712-drq13b clean
 
 current directory: /home/mlscmoulika/personal_portfolios/2-latest-github.io/mlscmoulika.github.io/vendor/bundle/ruby/3.2.0/gems/commonmarker-0.23.10/ext/commonmarker
-make DESTDIR\= sitearchdir\=./.gem.20260801-81672-k5epdi sitelibdir\=./.gem.20260801-81672-k5epdi
+make DESTDIR\= sitearchdir\=./.gem.20260811-9712-drq13b sitelibdir\=./.gem.20260811-9712-drq13b
 compiling arena.c
 compiling autolink.c
 compiling blocks.c
@@ -58,8 +58,8 @@ compiling xml.c
 linking shared-object commonmarker/commonmarker.so
 
 current directory: /home/mlscmoulika/personal_portfolios/2-latest-github.io/mlscmoulika.github.io/vendor/bundle/ruby/3.2.0/gems/commonmarker-0.23.10/ext/commonmarker
-make DESTDIR\= sitearchdir\=./.gem.20260801-81672-k5epdi sitelibdir\=./.gem.20260801-81672-k5epdi install
-/usr/bin/install -c -m 0755 commonmarker.so ./.gem.20260801-81672-k5epdi/commonmarker
+make DESTDIR\= sitearchdir\=./.gem.20260811-9712-drq13b sitelibdir\=./.gem.20260811-9712-drq13b install
+/usr/bin/install -c -m 0755 commonmarker.so ./.gem.20260811-9712-drq13b/commonmarker
 
 current directory: /home/mlscmoulika/personal_portfolios/2-latest-github.io/mlscmoulika.github.io/vendor/bundle/ruby/3.2.0/gems/commonmarker-0.23.10/ext/commonmarker
-make DESTDIR\= sitearchdir\=./.gem.20260801-81672-k5epdi sitelibdir\=./.gem.20260801-81672-k5epdi clean
+make DESTDIR\= sitearchdir\=./.gem.20260811-9712-drq13b sitelibdir\=./.gem.20260811-9712-drq13b clean

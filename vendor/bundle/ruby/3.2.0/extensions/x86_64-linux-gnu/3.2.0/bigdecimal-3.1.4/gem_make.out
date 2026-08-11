@@ -32,17 +32,17 @@ checking for RB_WARN_CATEGORY_DEPRECATED in ruby.h... yes
 creating Makefile
 
 current directory: /home/mlscmoulika/personal_portfolios/2-latest-github.io/mlscmoulika.github.io/vendor/bundle/ruby/3.2.0/gems/bigdecimal-3.1.4/ext/bigdecimal
-make DESTDIR\= sitearchdir\=./.gem.20260801-81672-sq19fl sitelibdir\=./.gem.20260801-81672-sq19fl clean
+make DESTDIR\= sitearchdir\=./.gem.20260811-9712-wsu2wj sitelibdir\=./.gem.20260811-9712-wsu2wj clean
 
 current directory: /home/mlscmoulika/personal_portfolios/2-latest-github.io/mlscmoulika.github.io/vendor/bundle/ruby/3.2.0/gems/bigdecimal-3.1.4/ext/bigdecimal
-make DESTDIR\= sitearchdir\=./.gem.20260801-81672-sq19fl sitelibdir\=./.gem.20260801-81672-sq19fl
+make DESTDIR\= sitearchdir\=./.gem.20260811-9712-wsu2wj sitelibdir\=./.gem.20260811-9712-wsu2wj
 compiling bigdecimal.c
 compiling missing.c
 linking shared-object bigdecimal.so
 
 current directory: /home/mlscmoulika/personal_portfolios/2-latest-github.io/mlscmoulika.github.io/vendor/bundle/ruby/3.2.0/gems/bigdecimal-3.1.4/ext/bigdecimal
-make DESTDIR\= sitearchdir\=./.gem.20260801-81672-sq19fl sitelibdir\=./.gem.20260801-81672-sq19fl install
-/usr/bin/install -c -m 0755 bigdecimal.so ./.gem.20260801-81672-sq19fl
+make DESTDIR\= sitearchdir\=./.gem.20260811-9712-wsu2wj sitelibdir\=./.gem.20260811-9712-wsu2wj install
+/usr/bin/install -c -m 0755 bigdecimal.so ./.gem.20260811-9712-wsu2wj
 
 current directory: /home/mlscmoulika/personal_portfolios/2-latest-github.io/mlscmoulika.github.io/vendor/bundle/ruby/3.2.0/gems/bigdecimal-3.1.4/ext/bigdecimal
-make DESTDIR\= sitearchdir\=./.gem.20260801-81672-sq19fl sitelibdir\=./.gem.20260801-81672-sq19fl clean
+make DESTDIR\= sitearchdir\=./.gem.20260811-9712-wsu2wj sitelibdir\=./.gem.20260811-9712-wsu2wj clean
