@@ -45,8 +45,9 @@ permalink: /resume/
     <h2>Independent Projects</h2>
     <p><strong>GPU Systems &amp; Performance (ongoing) — mlscmoulika.github.io</strong></p>
     <ul class="resume-list">
-      <li>Implemented a numerically stable softmax kernel in Triton (max-subtraction for overflow safety); verified correctness against reference implementation on LeetGPU.</li>
-      <li>Explored GPU profiling methodology comparing torch.profiler and torch.cuda.Event for identifying training bottlenecks.</li>
+      <li>Implemented and benchmarked Triton GPU kernels against native PyTorch operations across multiple input sizes; solved 6 problems on LeetGPU.</li>
+      <li>Benchmarked custom Triton kernels against native PyTorch operations.</li>
+      <li>Applied GPU profiling methodology (torch.profiler, torch.cuda.Event) to isolate and analyze training bottlenecks.</li>
     </ul>
 
     <h2>Engineering Experience</h2>
