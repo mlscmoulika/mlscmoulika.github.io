@@ -281,14 +281,47 @@ a:hover {
   padding: 0.45rem 0.8rem;
   background: #132c37;
   color: #ffffff;
+  border: none;
   border-radius: 0.25rem;
   font-weight: 600;
   font-size: 0.9rem;
+  cursor: pointer;
+  font-family: inherit;
 }
 
 .resume-download:hover {
   text-decoration: none;
   background: #1f4350;
+}
+
+@media print {
+  .top-home-link,
+  .page-header,
+  .site-footer,
+  .main-content > .wrapper > :not(.resume-page) {
+    display: none !important;
+  }
+
+  .main-content {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  .resume-page {
+    max-width: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .resume-document {
+    box-shadow: none;
+    border: none;
+    padding: 0;
+  }
+
+  .resume-download {
+    display: none !important;
+  }
 }
 
 .resume-section {

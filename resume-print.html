@@ -1,0 +1,119 @@
+---
+layout: null
+title: Resume Print
+permalink: /resume/print/
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Moulika Madana</title>
+    <link rel="stylesheet" href="{{ '/stylesheets/stylesheet.css' | relative_url }}">
+    <style>
+      @page {
+        margin: 0.6in 0.7in;
+      }
+
+      body {
+        margin: 0;
+        background: #fff;
+      }
+      .resume-page {
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 1.5rem 1rem 2rem;
+      }
+      .resume-download {
+        display: none !important;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="resume-page">
+      <div class="resume-document">
+        <div class="resume-intro">
+          <h1>Moulika Madana</h1>
+          <p>LinkedIn: <a href="https://www.linkedin.com/in/moulika-madana/">https://www.linkedin.com/in/moulika-madana-b354b0194/</a> · Email: <a href="mailto:mlscmoulika@gmail.com">mlscmoulika@gmail.com</a></p>
+          <p>Mobile: +91 9901236422</p>
+        </div>
+
+        <div class="resume-section">
+          <h2>Education</h2>
+          <p><strong>M.Sc. Machine Learning</strong>,<br>
+          KTH Royal Institute of Technology, Sweden | Aug 2021 – Oct 2023 · Stockholm, Sweden</p>
+          <p><strong>GPA:</strong> 4.2/5. Thesis: Machine Learning Approaches for Fault Diagnosis in Mobile Telecom Networks Using Graph Neural Networks (with Ericsson R&amp;D) — DIVA Portal.</p>
+
+          <p><strong>B.Tech, Computer Science &amp; Engineering</strong>,<br>
+          Amrita Vishwa Vidyapeetham, India | 2018 – 2022 · Bengaluru, India</p>
+          <p><strong>GPA:</strong> 4.6/5. Selected for the 3+2 collaborative exchange program with KTH Royal Institute of Technology. 34th rank, Karnataka Regional Mathematics Olympiad (KRMO) 2015.</p>
+
+          <h2>Research Experience</h2>
+          <p><strong>Master's Thesis Researcher / Innovation Intern</strong>, Ericsson R&amp;D | Jun 2022 – Sep 2023 · Stockholm, Sweden</p>
+          <ul class="resume-list">
+            <li>Developed machine learning methods, including Graph Neural Networks, to identify probable causes of faults in mobile telecom networks from network performance data.</li>
+            <li>Built a network simulator to generate synthetic telecom data for controlled model training and evaluation.</li>
+            <li>Investigated time-synchronization improvements for mobile networks using approaches based on Gauss–Jordan elimination.</li>
+          </ul>
+
+          <p><strong>Data Scientist (Contract)</strong>, KTH × Ericsson, DD2380 Project Course | Aug 2022 – Dec 2022 · Stockholm, Sweden</p>
+          <ul class="resume-list">
+            <li>Constructed causal graphs to identify drivers of increased energy consumption in mobile networks; validated relationships with domain experts.</li>
+            <li>Built visualization tools to communicate findings and support exploratory analysis of network energy usage.</li>
+          </ul>
+
+          <p><strong>Research Intern, GUII Lab</strong>, University of California, Santa Cruz | Jun 2021 – Aug 2021 · Santa Cruz, CA, USA</p>
+          <ul class="resume-list">
+            <li>Designed and built interactive data-visualization tools (D3.js, Python) for the Open Player and Community Models research projects, enabling researchers to explore player behavior and gameplay strategy patterns.</li>
+          </ul>
+
+          <h2>Independent Projects</h2>
+          <p><strong>GPU Systems &amp; Performance (ongoing) — mlscmoulika.github.io</strong></p>
+          <ul class="resume-list">
+            <li>Implemented and benchmarked Triton GPU kernels against native PyTorch operations across multiple input sizes; solved 6 problems on LeetGPU.</li>
+            <li>Benchmarked custom Triton kernels against native PyTorch operations.</li>
+            <li>Applied GPU profiling methodology (torch.profiler, torch.cuda.Event) to isolate and analyze training bottlenecks.</li>
+          </ul>
+
+          <h2>Engineering Experience</h2>
+          <p><strong>Software Engineer, Data &amp; Analytics Systems</strong>, Xylem | Oct 2024 – Present · Bengaluru, India</p>
+          <ul class="resume-list">
+            <li>Own and maintain a Kedro-based commercial lead-generation platform (30+ pipelines, 150+ nodes) processing 10 years of transaction data for aftermarket sales analytics across North America and Europe.</li>
+            <li>Reduced end-to-end pipeline runtime 66% (15h → 5h) by identifying redundant computation and restructuring execution order.</li>
+            <li>Diagnosed and resolved long-standing data-quality issues in legacy workflows, restoring trust in datasets used for sales reporting.</li>
+            <li>Designed modular pipelines enabling new business teams to onboard without rebuilding existing workflows.</li>
+            <li>Delivered an end-to-end analytics pipeline and operational dashboard suite in 15 days.</li>
+          </ul>
+
+          <p><strong>Summer R&amp;D Intern</strong>, Xylem | Jun 2024 – Sep 2024 · Stockholm, Sweden</p>
+          <ul class="resume-list">
+            <li>Built an internal Streamlit/Angular application automating customer report generation, cutting preparation time from 2 hours to ~5 minutes.</li>
+            <li>Analyzed SKU-level sales data (Power BI, Apache Superset) to produce operational insights for business stakeholders.</li>
+          </ul>
+
+          <h2>Teaching</h2>
+          <p><strong>Teaching Assistant, Artificial Intelligence (DD2380)</strong>, KTH Royal Institute of Technology | Nov 2021 – Jun 2022 · Stockholm, Sweden</p>
+
+          <h2>Skills</h2>
+          <p><strong>Languages &amp; Tools:</strong> Python, Triton, CUDA (learning), PyTorch, SQL, D3.js</p>
+          <p><strong>ML/Math:</strong> Graph Neural Networks, Causal Graphs, Statistical Analysis, Linear Algebra</p>
+          <p><strong>Data &amp; Infra:</strong> Kedro, Power BI, Apache Superset, Streamlit</p>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      window.addEventListener('load', function () {
+        if (window.matchMedia) {
+          const media = window.matchMedia('print');
+          if (media && typeof media.matches !== 'undefined') {
+            window.print();
+            return;
+          }
+        }
+        window.print();
+      });
+    </script>
+  </body>
+</html>
