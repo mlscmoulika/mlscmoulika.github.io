@@ -1,5 +1,8 @@
 # Resume
 
+## Summary
+Machine learning engineer with an M.Sc. in Machine Learning (KTH) and thesis research on graph neural networks for fault diagnosis on noisy telecom data (with Ericsson R&D). Two years of experience building, optimizing and deploying production data and analytics systems. Looking to apply applied ML to high-impact, real-world problems.
+
 ## Education
 - M.Sc. Machine Learning, KTH Royal Institute of Technology, Sweden — Aug 2021 – Oct 2023 · Stockholm, Sweden
   - GPA: 4.2/5
@@ -24,20 +27,24 @@
 - GPU Systems & Performance (ongoing) — mlscmoulika.github.io
   - Implemented a numerically stable softmax kernel in Triton; verified correctness against reference implementation on LeetGPU.
   - Explored GPU profiling methodology comparing torch.profiler and torch.cuda.Event for identifying training bottlenecks.
-
+- Self-Classifier — Reproduction and Ablation study(Ongoing)
+  - Reproducing a close replica of self-classifier model with available compute in kedro and pytorch, and performing ablation study on the loss function proposed in the paper.
 ## Engineering Experience
 - Software Engineer, Data & Analytics Systems, Xylem — Oct 2024 – Present · Bengaluru, India
-  - Own and maintain a Kedro-based commercial lead-generation platform processing 10 years of transaction data for aftermarket sales analytics.
-  - Reduced end-to-end pipeline runtime 66% (15h → 5h) by identifying redundant computation and restructuring execution order.
-  - Diagnosed and resolved long-standing data-quality issues in legacy workflows.
-- Summer R&D Intern, Xylem — Jun 2024 – Sep 2024 · Stockholm, Sweden
-  - Built an internal Streamlit/Angular application automating customer report generation.
-  - Analyzed SKU-level sales data to produce operational insights for business stakeholders.
+  - Own a Kedro-based commercial lead-generation platform (30+ pipelines, 150+ nodes) processing 10 years of transaction data for aftermarket sales analytics across North America and Europe.
+  - Cut end-to-end pipeline runtime by 66% (15h to 5h) by identifying redundant computation and restructuring execution order.
+  - Diagnosed and fixed long-standing data-quality issues in legacy workflows, restoring trust in datasets used for sales reporting.
+  - Contributed to an internal application published on Databricks. 
+  - Automated recurring business reports with Power Automate and built Power BI dashboards with embedded Power Apps and filtered deep links; delivered an analytics pipeline and dashboard suite in 15 days.
+  - Built a voice-to-code prototype at a company hackathon: wrote the backend using DSPy for code-intent extraction, plus a VS Code extension to demonstrate an in-house developer tool.
+- Summer R&D Intern, Xylem — Jun 2024 — Sept 2024 . Stockholm, Sweden
+  - Built an internal Streamlit/Angular application that automated customer report generation, cutting preparation time from 2 hours to about 5 minutes.
+  - Analyzed SKU-level sales data (Power BI, Apache Superset) to produce operational insights for business stakeholders.
 
 ## Teaching
 - Teaching Assistant, Artificial Intelligence (DD2380), KTH Royal Institute of Technology — Nov 2021 – Jun 2022 · Stockholm, Sweden
 
 ## Skills
 - Languages & Tools: Python, Triton, CUDA (learning), PyTorch, SQL, D3.js
-- ML/Math: Graph Neural Networks, Causal Graphs, Statistical Analysis, Linear Algebra
+- ML/Math: Graph Neural Networks, Causal Graphs, LLM tooling(DSPy)
 - Data & Infra: Kedro, Power BI, Apache Superset, Streamlit
