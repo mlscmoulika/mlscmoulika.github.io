@@ -1,7 +1,7 @@
 # Resume
 
 ## Summary
-Machine learning engineer with an M.Sc. in Machine Learning (KTH) and thesis research on graph neural networks for fault diagnosis on noisy telecom data (with Ericsson R&D). Two years of experience building, optimizing and deploying production data and analytics systems. Looking to apply applied ML to high-impact, real-world problems.
+- Machine learning engineer with an M.Sc. in Machine Learning (KTH) and thesis research on graph neural networks for fault diagnosis on noisy telecom data (with Ericsson R&D). Two years of experience building, optimizing and deploying production data and analytics systems. Looking to apply applied ML to high-impact, real-world problems.
 
 ## Education
 - M.Sc. Machine Learning, KTH Royal Institute of Technology, Sweden — Aug 2021 – Oct 2023 · Stockholm, Sweden
@@ -29,6 +29,7 @@ Machine learning engineer with an M.Sc. in Machine Learning (KTH) and thesis res
   - Explored GPU profiling methodology comparing torch.profiler and torch.cuda.Event for identifying training bottlenecks.
 - Self-Classifier — Reproduction and Ablation study(Ongoing)
   - Reproducing a close replica of self-classifier model with available compute in kedro and pytorch, and performing ablation study on the loss function proposed in the paper.
+
 ## Engineering Experience
 - Software Engineer, Data & Analytics Systems, Xylem — Oct 2024 – Present · Bengaluru, India
   - Own a Kedro-based commercial lead-generation platform (30+ pipelines, 150+ nodes) processing 10 years of transaction data for aftermarket sales analytics across North America and Europe.
